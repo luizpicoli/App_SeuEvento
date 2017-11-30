@@ -31,11 +31,11 @@
  1. Faça um clone do projeto 
  > git clone https://github.com/luizpicoli/App_SeuEvento.git
  
- 2. Abra o CMD (Windowns) e navegue até o diretório do projeto clonado  
+ 2. Crie um banco de dados com o nome que preferir (ex: app_seuevento), e feito isso abra o arquivo .env e insira nele as informações sobre o nome da banco criado, o nome de usuário e a senha 
  
- 3. Crie um banco de dados com o nome que preferir (ex: app_seuevento), e feito isso abra o arquivo .env e insira nele as informações sobre o nome da banco criado, o nome de usuário e a senha 
+ 3. Abra o CMD (Windowns) e navegue até o diretório do projeto clonado  
  
- 4. Para gerar as tabelas do banco será utilizada uma das facilidades do framework, as [_migrations_](https://laravel.com/docs/5.5/migrations), novamente dentro do diretório do projeto no CMD use o comando `php artisan migrate` para que os scripts das tabelas dentro do projeto sejam executados e criem as tabelas no banco  
+ 4. Para gerar as tabelas do banco será utilizada uma das facilidades do framework, as [_migrations_](https://laravel.com/docs/5.5/migrations), dentro do diretório do projeto no CMD use o comando `php artisan migrate` para que os scripts das tabelas dentro do projeto sejam executados e criem as tabelas no banco  
  
  5. Agora para executar o projeto execute o comando `php artisan serve` para iniciar o servidor de testes e acesse a url `localhost:8000` no navegador para visualizar o projeto
  
