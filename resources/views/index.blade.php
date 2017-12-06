@@ -3,7 +3,7 @@
 @section('conteudo')
 
 <div class='col-sm-7'>
-    <img src='herbie.jpg' alt='Fusca Herbie'>
+    <img src='logo.jpg' alt='Logo App'>
 </div>
 <div class='col-sm-5'>
     <h2> Bem-Vindo à Área Administrativa do App SeuEvento </h2>

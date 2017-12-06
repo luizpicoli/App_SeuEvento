@@ -48,7 +48,6 @@
                 <th>Atração</th>
                 <th>Preço R$</th>
                 <th>Detalhes</th>
-                <th>Data Cad.</th>
                 <th>Ações</th>
             </tr>
         </thead>
@@ -61,7 +60,6 @@
                 <td> {{$evento->data}} </td>
                 <td> {{$evento->atracao}} </td>
                 <td style="text-align: right"> {{number_format($evento->preco, 2, ',', '.')}} &nbsp;&nbsp; </td>
-                <td> {{date_format($evento->created_at, 'd/m/Y')}} </td>
                 <td> {{$evento->detalhes}} </td>
                 <td> <a href='{{route('eventos.edit', $evento->id)}}'
                         class='btn btn-info' 
