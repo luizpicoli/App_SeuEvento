@@ -272,6 +272,11 @@ class ComposerStaticInit54c75bb33a501c2d1c356069559b5162
     );
 
     public static $classMap = array (
+<<<<<<< HEAD
+=======
+        'ConviteTableSeeder' => __DIR__ . '/../..' . '/database/seeds/ConviteTableSeeder.php',
+        'CreateConvitesTable' => __DIR__ . '/../..' . '/database/migrations/2017_11_27_135701_create_convites_table.php',
+>>>>>>> administrador
         'CreateEventosTable' => __DIR__ . '/../..' . '/database/migrations/2017_04_13_124701_create_eventos_table.php',
         'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
         'CreateUsersTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_000000_create_users_table.php',

@@ -28,7 +28,10 @@
                 <th>Data</th>
                 <th>Atração</th>
                 <th>Preço R$</th>
+<<<<<<< HEAD
                
+=======
+>>>>>>> administrador
                 <th>Detalhes</th>
                 <th>Ações</th>
             </tr>
@@ -42,7 +45,10 @@
                 <td> {{$evento->data}} </td>
                 <td> {{$evento->atracao}} </td>
                 <td style="text-align: right"> {{number_format($evento->preco, 2, ',', '.')}} &nbsp;&nbsp; </td>
+<<<<<<< HEAD
                 
+=======
+>>>>>>> administrador
                 <td> {{$evento->detalhes}} </td>
                 <td> <a href='{{route('eventos.edit', $evento->id)}}'
                         class='btn btn-info' 
