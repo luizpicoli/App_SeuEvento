@@ -22,7 +22,7 @@
   - [MySQL 5.6](https://www.mysql.com/)
   - [Laravel 5.4](https://laravel.com/)
   - [Composer 1.4.2](https://getcomposer.org/)
-  - [Android Studio 3.0](https://developer.android.com/studio/index.html?hl=pt-br)
+  - [Java](https://developer.android.com/studio/index.html?hl=pt-br)
   
   
   ## **Clone do projeto Área adiministrativa**
@@ -42,5 +42,5 @@
   ## **Clone do projeto Área do usuário**
   
   1. Faça um clone do projeto 
- > git clone.
-  
+ > git clone https://github.com/LaudrinGarralaga/App_SeuEvento.git
+  2. Copie os arquivos "insere_eventos" e "lista_eventos" que estão na pasta app_eventos para dentro do xampp na pasata htdocs.
