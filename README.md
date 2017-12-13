@@ -43,4 +43,4 @@
   
   1. Faça um clone do projeto 
  > git clone https://github.com/LaudrinGarralaga/App_SeuEvento.git
-  2. Copie os arquivos "insere_eventos" e "lista_eventos" que estão na pasta app_eventos para dentro do xampp na pasata htdocs.
+  2. Copie os arquivos "insere_eventos" e "lista_eventos" que estão na pasta app_eventos para dentro do xampp na pasta htdocs.
